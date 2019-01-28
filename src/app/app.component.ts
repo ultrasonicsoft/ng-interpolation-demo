@@ -3,8 +3,9 @@ import { Component } from '@angular/core';
 @Component({
   selector: 'app-root',
   templateUrl: './app.component.html',
-  styleUrls: ['./app.component.css']
+  styleUrls: ['./app.component.css'],
+  interpolation: [`[`, `]`]
 })
 export class AppComponent {
-  title = 'ng-interpolation-demo';
+  title = 'Custom Interpolation Demo';
 }
